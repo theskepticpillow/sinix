@@ -2,4 +2,9 @@
 # sinix
 Assets and downloads for Sinix Linux, an arch-based distro meant to be suckless, minimal and easy-to-use.
 
-Documentation is in the ![other branch:](https://github.com/theskepticpillow/sinix/tree/struct)
+### Links {
+  ![Documentation:](https://github.com/theskepticpillow/sinix/tree/struct)
+  
+  ![Discord:](https://discord.gg/ZrTgc2WtB)
+  
+}
