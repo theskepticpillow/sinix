@@ -8,3 +8,6 @@ Assets and downloads for Sinix Linux, an arch-based distro meant to be suckless,
   ![Discord:](https://discord.gg/ZrTgc2WtB)
 
 ---------------------------------------------
+## preview 
+
+![here](sinix.PNG)
