@@ -57,3 +57,4 @@ theme = "Beryllium"
 #   - DiskSpace
 # Example:
 #   show = ["Battery", "Memory", ...]
+show = ["Host", "Machine", "Kernel", "Distribution", "DesktopEnvironment", "WindowManager", "Terminal", "Memory", "Battery"]
