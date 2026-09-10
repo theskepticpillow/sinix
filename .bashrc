@@ -9,3 +9,4 @@ echo "(: | Welcome to Sinix, $USER!"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias sudo='doas '
