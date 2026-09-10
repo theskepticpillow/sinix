@@ -45,7 +45,7 @@ if [ -d "$xinitdir"/xinitrc.d ] ; then
         unset f
 fi
 
-feh --bg-scale /usr/share/sinix/wallpapers/wallhaven-nzd68o_1920x1080.png
+xwallpaper --zoom /usr/share/sinix/wallpapers/wallhaven-nzd68o_1920x1080.png &
 
 exec vxwm
         
