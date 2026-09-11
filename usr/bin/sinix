@@ -2,13 +2,14 @@
 
 ## variables
 PAUSE_TIME=1
-LOGO_DIR=/usr/share/assets/sinix/logos/ascii-2.txt
-HEADER=echo "*(((((SINIX)))))*-"
-GITHUB_SITE=echo "https://github.com/theskepticpillow/sinix"
-QUOTE=echo "'Welcome to my operating system, i hope you love it <3'"
-QUOTE_AUTHOR=echo "-tspillow! (theskepticpillow)"
-CONTRIB_HEADERS_START=echo "Project contributors >>"
-CONTRIBUTORS=echo "
+LOGO_DIR="/usr/share/assets/sinix/logos/ascii-2.txt"
+
+HEADER="*(((((SINIX)))))*-"
+GITHUB_SITE="https://github.com/theskepticpillow/sinix"
+QUOTE="'Welcome to my operating system, i hope you love it <3'"
+QUOTE_AUTHOR="-tspillow! (theskepticpillow)"
+CONTRIB_HEADERS_START="Project contributors >>"
+CONTRIBUTORS="
 PROJECT LEADER: theskepticpillow
 Name Idea: damarts_too_smarts
 Contributors: solstice, damarts_too_smarts
@@ -16,14 +17,19 @@ Contributors: solstice, damarts_too_smarts
 
 Thanks for contributing! Enjoy Sinix Linux!
 ----------------------------------------------------"
-cat $LOGO_DIR
-$HEADER
-$GITHUB_SITE
-sleep $PAUSE_TIME
-$QUOTE
-$QUOTE_AUTHOR
-sleep $PAUSE_TIME
-$CONTRIB_HEADERS_START
-sleep $PAUSE_TIME
-$CONTRIBUTORS
+
+## execution
+cat "$LOGO_DIR"
+echo "$HEADER"
+echo "$GITHUB_SITE"
+sleep "$PAUSE_TIME"
+
+echo "$QUOTE"
+echo "$QUOTE_AUTHOR"
+sleep "$PAUSE_TIME"
+
+echo "$CONTRIB_HEADERS_START"
+sleep "$PAUSE_TIME"
+
+echo "$CONTRIBUTORS"
 sleep 3
