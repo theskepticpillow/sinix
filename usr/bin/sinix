@@ -1,0 +1,26 @@
+#!/bin/sh
+
+## variables
+PAUSE=sleep 1
+LOGO-DIR=cat /usr/share/assets/sinix/logos/ascii-2.txt
+HEADER=echo "*(((((SINIX)))))*-"
+GITHUB_SITE=echo "https://github.com/theskepticpillow/sinix"
+QUOTE=echo "'Welcome to my operating system, i hope you love it <3"
+QUOTE_AUTHOR=echo "-tspillow! (theskepticpillow)"
+CONTRIB_HEADERS_START=echo "Project contributors >>"
+CONTRIBUTORS=echo "
+PROJECT LEADER: theskepticpillow
+Name Idea: damarts_too_smarts
+Contributors: solstice, damarts_too_smarts
+
+
+Thanks for contributing! Enjoy Sinix Linux!
+----------------------------------------------------"
+$LOGO-DIR
+$HEADER
+$GITHUB_SITE
+$PAUSE
+$QUOTE
+$QUOTE_AUTHOR
+$CONTRIB_HEADERS_START
+$CONTRIBUTORS
