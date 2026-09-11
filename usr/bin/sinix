@@ -1,8 +1,8 @@
 #!/bin/sh
 
 ## variables
-PAUSE=sleep 1
-LOGO_DIR=cat /usr/share/assets/sinix/logos/ascii-2.txt
+PAUSE_TIME=1
+LOGO_DIR=/usr/share/assets/sinix/logos/ascii-2.txt
 HEADER=echo "*(((((SINIX)))))*-"
 GITHUB_SITE=echo "https://github.com/theskepticpillow/sinix"
 QUOTE=echo "'Welcome to my operating system, i hope you love it <3"
@@ -16,11 +16,14 @@ Contributors: solstice, damarts_too_smarts
 
 Thanks for contributing! Enjoy Sinix Linux!
 ----------------------------------------------------"
-$LOGO-DIR
+cat $LOGO_DIR
 $HEADER
 $GITHUB_SITE
-$PAUSE
+sleep $PAUSE_TIME
 $QUOTE
 $QUOTE_AUTHOR
+sleep $PAUSE_TIME
 $CONTRIB_HEADERS_START
+sleep $PAUSE_TIME
 $CONTRIBUTORS
+sleep 3
