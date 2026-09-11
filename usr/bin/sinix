@@ -2,7 +2,7 @@
 
 ## variables
 PAUSE=sleep 1
-LOGO-DIR=cat /usr/share/assets/sinix/logos/ascii-2.txt
+LOGO_DIR=cat /usr/share/assets/sinix/logos/ascii-2.txt
 HEADER=echo "*(((((SINIX)))))*-"
 GITHUB_SITE=echo "https://github.com/theskepticpillow/sinix"
 QUOTE=echo "'Welcome to my operating system, i hope you love it <3"
