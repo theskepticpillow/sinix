@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "(*) Creating local configuration folder... - ~/.local/cfg/"
+mkdir -p ~/.local/cfg/
+echo "(+) Copying from share configuration to the local configuration folder... - /usr/share/sinix to ~/.local/cfg/"
+cp -r /usr/share/sinix/ ~/.local/cfg/
+echo "(*) Fixing permissions and allowing the user to edit the local configuration folder..."
+sudo chown -R $USER:$USER ~/.local/cfg/
